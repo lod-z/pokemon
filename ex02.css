@@ -1,0 +1,27 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+.charmander{
+    border: 2px dashed rgb(255, 0, 0);
+    background-color:rgb(255, 153, 0);
+}
+
+.squirtle{
+    border: 2px dashed rgb(0, 0, 255);
+    background-color: lightblue;
+}
+
+.bulbasaur{
+    border: 2px dashed rgb(0, 255, 0);
+    background-color: lightgreen;
+}
+
+body {
+    background: linear-gradient(to right, rgb(255, 153, 0), lightblue, lightgreen);
+}
